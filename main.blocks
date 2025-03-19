@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="qbrcP2`VruIc:f,1?8iz">LightsOn</variable></variables><block type="input_on_sound" id="6-RdZM]t09sAh7?mSNoI" x="20" y="20"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="variables_set" id="LP=lg5T{i@%n6NLGpi+`"><field name="VAR" id="qbrcP2`VruIc:f,1?8iz">LightsOn</field><value name="VALUE"><shadow type="math_number" id="1V#$0(oO|AAOhF$2TCnI"><field name="NUM">0</field></shadow><block type="logic_negate" id="vd@Cf)wlkSw,Znn~$]0z"><value name="BOOL"><shadow type="logic_boolean" id="++%%yEU.oRmRETYFxf@r"><field name="BOOL">TRUE</field></shadow><block type="variables_get" id="3Cl!/VT/l#HrKDSq2A#M"><field name="VAR" id="qbrcP2`VruIc:f,1?8iz">LightsOn</field></block></value></block></value><next><block type="controls_if" id="VZ/v#{8[_BagM5xh@~V@"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="Xv1XG,[O1`wFfzNWW`KJ"><field name="BOOL">TRUE</field></shadow><block type="variables_get" id="E0#ql^-ok?F+?t~]zA9]"><field name="VAR" id="qbrcP2`VruIc:f,1?8iz">LightsOn</field></block></value><statement name="DO0"><block type="device_show_leds" id="E#Jbtkd7d@HV-4/lNGcY"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id="{7{wW$yl-7:+[#4o^XW5"></block></statement></block></next></block></statement></block></xml>
